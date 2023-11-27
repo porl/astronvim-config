@@ -9,4 +9,18 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "catppuccin/nvim",
+    name = "catppuccin",
+    opts = {
+      -- configuration options...
+      color_overrides = {
+				mocha = {
+					base = "#000000",
+					mantle = "#000000",
+					crust = "#000000",
+				},
+			},
+    },
+  }
 }
